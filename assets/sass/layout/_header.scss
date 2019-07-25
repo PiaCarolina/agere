@@ -1,0 +1,104 @@
+.header{
+  position: relative;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.header__hero {
+  width: 889px;
+  height: 440px;
+}
+
+
+.header__hero_info {
+  z-index: 1;
+  font-family: $roboto;
+  font-size: $medium;
+  position: absolute;
+  background-color: $white;
+  left: 420px;
+  right: 0;
+  width: 604px;
+  height: 136px;
+  bottom: 0;
+}
+
+.header__hero_info--1 {
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1;
+  height: 136px;
+  padding: 25px;
+  width: 110px;
+}
+.header__hero_info--2 {
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1;
+  height: 136px;
+  padding: 25px;
+  width: 110px;
+}
+.header__hero_info--3 {
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1;
+  height: 136px;
+  width: 190px;
+  padding: 25px;
+
+}
+
+.header__hero_info--color1{
+  color: $white;
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: $flame;
+  z-index: 1;
+  width: 151px;
+  height: 136px;
+  right: 15px;
+  top: -15px;
+  margin-left: auto;
+}
+
+.fa-arrow-right {
+  padding: 45px;
+}
+
+.header__hero_info--color2{
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: $Buff;
+  width: 151px;
+  height: 136px;
+  right: 0;
+  margin-left: auto;
+}
+
+.header__text {
+  padding: 70px 70px;
+  display: inline;
+  background-color: $white;
+  float: right;
+  right: 0;
+  width: 381px;
+  height: 440px;
+}
+
+.header__text--title {
+  font-family: $mono;
+  font-size: $xxx-large;
+  font-weight: $regular;
+}
+
+.header__text--paragraph {
+  font-family: $roboto;
+  font-size: $large;
+  font-weight: $regular;
+}

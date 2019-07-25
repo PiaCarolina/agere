@@ -1,0 +1,53 @@
+/* estilos de fondo */
+.topnav {
+  background-color: $white;
+  overflow: hidden;
+  font-family: $mono;
+}
+
+/* estilos de link */
+.topnav a {
+  float: left;
+  color: $quick-silver;
+  text-align: center;
+  text-decoration: none;
+  font-size: $medium;
+  margin-left: 50px;
+
+}
+
+.topnav__img{
+
+  margin-top: 16px;
+
+}
+
+/* estilos hover}*/
+.topnav a:hover {
+  color: black;
+}
+
+.topnav__button--grey {
+  padding: 0px 5px;
+  background: $white;
+  color: $quick-silver;
+  border: 1px solid $Outer-space;
+  float: right;
+}
+
+.topnav__button--green {
+  padding: 0px 5px;
+  background: $shiny-shamrock;
+  color: $white;
+  border: 1px solid $Outer-space;
+  float: right;
+  margin-right: 200px;
+}
+
+
+/* estilos active/current link
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+ */
